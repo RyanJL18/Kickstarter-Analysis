@@ -15,10 +15,12 @@ In this analysis I worked to find new data values for the main kickstarter data 
 
 ---
 Some of the first additional data that was calculated was finding the average donation and creating a new column. Using the formulas seen below: fig. 1 was used to calculate the average donation, and fig2 was used to apply the date created conversion to the initially offered Epoch Time in Cloumns I & J. 
+**Fig1:**
 ![Formula Average.png](https://github.com/RyanJL18/Kickstarter-Analysis/blob/main/Formula%20Average.png)
+**Fig2:**
+![Formula Epoch Time.png](https://github.com/RyanJL18/Kickstarter-Analysis/blob/main/Formula%20Epoch%20Time.png)
 
-Fig1 & Fig2
-
+---
 With these data cleaning steps we could evaluate the provided data better, but the overload of values present still offered a challenge in assessing the information that we found most important. From here we broke down the catagories into a second column labeled subcategories, which allowed us to better filter the information for Lousie's play. With these new parameters we could evaluate broad data like the number of successful, failed, and cancelled kickstarters based on the parent catagories, as well as find more specific information like the Outcomes Based on Launch Date (data that will be discussed in my conclusion). Below are some of the different graphs of information gathered from this step of the process.
 Fig3
 Fig4
