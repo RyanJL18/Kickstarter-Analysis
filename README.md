@@ -35,6 +35,7 @@ With these data cleaning steps we could evaluate the provided data better, but t
 
 ---
 
+One challenge that I faced when working with this data set, was something that I ran into because of the size of the formulas for one of the later data sets. In the chart created for *Outcomes Based on Goals* the data set being pulled to calculate the outcomes was actually being pulled from the "pledged amount" category. This gave me very skewed and incorrect data based on the information I was trying to present. With this challenge I was forced to go through the formula line and compare based on the original chart, at which point I then had to redo all the formulas to reflect column *D* as opposed to column *E*.
 # Conclusion
 
 Two Conclusions Based on Launch Date:
