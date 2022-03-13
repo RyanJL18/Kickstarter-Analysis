@@ -15,6 +15,8 @@ In this analysis I worked to find new data values for the main kickstarter data 
 
 ---
 Some of the first additional data that was calculated was finding the average donation and creating a new column. Using the formulas seen below: fig. 1 was used to calculate the average donation, and fig2 was used to apply the date created conversion to the initially offered Epoch Time in Cloumns I & J. 
+
+---
 **Fig1:**
 ![Formula Average.png](https://github.com/RyanJL18/Kickstarter-Analysis/blob/main/Formula%20Average.png)
 **Fig2:**
@@ -22,17 +24,26 @@ Some of the first additional data that was calculated was finding the average do
 
 ---
 With these data cleaning steps we could evaluate the provided data better, but the overload of values present still offered a challenge in assessing the information that we found most important. From here we broke down the catagories into a second column labeled subcategories, which allowed us to better filter the information for Lousie's play. With these new parameters we could evaluate broad data like the number of successful, failed, and cancelled kickstarters based on the parent catagories, as well as find more specific information like the Outcomes Based on Launch Date (data that will be discussed in my conclusion). Below are some of the different graphs of information gathered from this step of the process.
-Fig3
-Fig4
-Fig5
+
+---
+**Fig3:**
+![Parent Category Outcomes.png](https://github.com/RyanJL18/Kickstarter-Analysis/blob/main/Parent%20Catagory.png)
+**Fig4:**
+![Subcategory Chart.png](https://github.com/RyanJL18/Kickstarter-Analysis/blob/main/Subcatagory%20Chart.png)
+**Fig5:**
+![Box and Whisker.png](https://github.com/RyanJL18/Kickstarter-Analysis/blob/main/Box%20and%20Whisker.png)
+
+---
 
 # Conclusion
 
 Two Conclusions Based on Launch Date:
 - The best time to launch a kickstarter for a play would be early summer.
 - The most kickstarters for plays were launched between May and August, depicted by a large spike in the number of successful campaigns while the number of failed campaigns showed a slight increase, but often remained consistent.
-Fig6
+**Fig6:**
+![Outcomes Based on Launch Date.png](https://github.com/RyanJL18/Kickstarter-Analysis/blob/main/Outcomes%20Based%20on%20Launch%20Date.png)
 Conclusion Based on Goal:
 - In general, the larger the goal was, the harder it was to successfully fund. The data shows a general increase in percentage failed as the goals grew, but there is a slight increase in percentage successful as we approced the 35000 to 44999 data range. However, there were much fewer total projects as the goal amount increased, leaving me to believe this change does not offer much contradiction for the previous assesment.
-Fig7
+**Fig7:**
+![Outcomed Based on Goals](https://github.com/RyanJL18/Kickstarter-Analysis/blob/main/Outcomes%20Based%20on%20Goals.png)
 The limitations that most affect both of these graphs, is that there is a much smaller amount of total projects as the goal amount was growing. While this lets us know it is much less common for this data to exist, we cannot make any firm conclusions on the later values without more data to pull. I would suggest more data for these values and potentially another column or catagory with information on how the amount pledged was collected (i.e. what fundraising tactics were used to reach their goal), to give us a better idea of what else Louise could attempt to receive the remaining amount for her goal. With the inclusion of a "Fundraising Tactic" column, a bar graph with the tactics as the x-axis and the amount raised as the y-axis could offer further insight on this topic.
