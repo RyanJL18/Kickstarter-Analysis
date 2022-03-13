@@ -22,6 +22,8 @@ With these data cleaning steps, we could evaluate the provided data better, but 
 **Fig3:**
 ![Parent Category Outcomes.png](https://github.com/RyanJL18/Kickstarter-Analysis/blob/main/Parent%20Catagory.png)
 In this chart, you can see overwhelmingly that hitting goals for categories such as Film & Video, Music, and Theater were more consistently successful as opposed to categories such as Food, Games, and Publishing.
+
+---
 **Fig4:**
 ![Subcategory Chart.png](https://github.com/RyanJL18/Kickstarter-Analysis/blob/main/Subcatagory%20Chart.png)
 From this chart, you can see that we are presented with the most information on the subcategory of plays, offering a lot of good information for comparison with Louise's fundraising goal.
@@ -42,6 +44,8 @@ Two Conclusions Based on Launch Date:
 ---
 Conclusion Based on Goal:
 - In general, the larger the goal was, the harder it was to successfully fund. The data shows a general increase in percentage failed as the goals grew, but there is a slight increase in percentage successful as we approaced the 35000 to 44999 data range. However, there were much fewer total projects as the goal amount increased, leaving me to believe this change does not offer much contradiction for the previous assessment.
+
+---
 **Fig7:**
 ![Outcomed Based on Goals](https://github.com/RyanJL18/Kickstarter-Analysis/blob/main/Outcomes%20Based%20on%20Goals.png)
 
