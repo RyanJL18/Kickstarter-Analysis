@@ -8,14 +8,15 @@ There is a summary of the limitations of the dataset, and there is a recommendat
 # Analysis of Kickstarter Campaigns in Entertainment
 ---
 # Background 
-With the data provided, we were able to analyze the results of kickstarter campaigns for entertaiment options such as film, games, technology, theater, etc. In this analysis we compared start dates, locations, goal amounts, pledged amounts, and a multitude other catagories to assist Louise in finding the best way to successfully fund her play, Fever, after initially coming close to her fundraising goal in a short amount of time.
+With the data provided, we were able to analyze the results of kickstarter campaigns for entertaiment options such as film, games, technology, theater, etc. In this analysis we compared start dates, locations, goal amounts, pledged amounts, and a multitude other catagories to assist Louise in finding the best way to successfully fund her play, *Fever*, after initially coming close to her fundraising goal in a short amount of time.
 
 # Process
 In this analysis I worked to find new data values for the main kickstarter data sheet and worked to add aditional sheets to better help clean and evaluate the data.
 
 ---
 Some of the first additional data that was calculated was finding the average donation and creating a new column. Using the formulas seen below: fig. 1 was used to calculate the average donation, and fig2 was used to apply the date created conversion to the initially offered Epoch Time in Cloumns I & J. 
-![Formula Average.png](path/to/formula average.png)
+![Formula Average.png](https://github.com/RyanJL18/Kickstarter-Analysis/blob/main/Formula%20Average.png)
+
 Fig1 & Fig2
 
 With these data cleaning steps we could evaluate the provided data better, but the overload of values present still offered a challenge in assessing the information that we found most important. From here we broke down the catagories into a second column labeled subcategories, which allowed us to better filter the information for Lousie's play. With these new parameters we could evaluate broad data like the number of successful, failed, and cancelled kickstarters based on the parent catagories, as well as find more specific information like the Outcomes Based on Launch Date (data that will be discussed in my conclusion). Below are some of the different graphs of information gathered from this step of the process.
