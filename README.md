@@ -11,21 +11,21 @@ Some of the first additional data that was calculated was finding the average do
 
 ---
 **Fig1:**
-![Formula Average.png](https://github.com/RyanJL18/Kickstarter-Analysis/blob/main/Formula%20Average.png)
+![Formula Average.png](https://github.com/RyanJL18/Kickstarter-Analysis/blob/main/Resources/Formula%20Average.png)
 **Fig2:**
-![Formula Epoch Time.png](https://github.com/RyanJL18/Kickstarter-Analysis/blob/main/Formula%20Epoch%20Time.png)
+![Formula Epoch Time.png](https://github.com/RyanJL18/Kickstarter-Analysis/blob/main/Resources/Formula%20Epoch%20Time.png)
 
 ---
 With these data cleaning steps, we could evaluate the provided data better, but the overload of values present still offered a challenge in assessing the information that we found most important. From here we broke down the categories into a second column labeled subcategories, which allowed us to better filter the information for Louise's play. With these new parameters we could evaluate broad data like the number of successful, failed, and cancelled Kickstarters based on the parent categories, as well as find more specific information like the Outcomes Based on Launch Date (data that will be discussed in my conclusion). Below are some of the different graphs of information gathered from this step of the process.
 
 ---
 **Fig3:**
-![Parent Category Outcomes.png](https://github.com/RyanJL18/Kickstarter-Analysis/blob/main/Parent%20Catagory.png)
+![Parent Category Outcomes.png](https://github.com/RyanJL18/Kickstarter-Analysis/blob/main/Resources/Parent%20Catagory.png)
 In this chart, you can see overwhelmingly that hitting goals for categories such as Film & Video, Music, and Theater were more consistently successful as opposed to categories such as Food, Games, and Publishing.
 
 ---
 **Fig4:**
-![Subcategory Chart.png](https://github.com/RyanJL18/Kickstarter-Analysis/blob/main/Subcatagory%20Chart.png)
+![Subcategory Chart.png](https://github.com/RyanJL18/Kickstarter-Analysis/blob/main/Resources/Subcatagory%20Chart.png)
 From this chart, you can see that we are presented with the most information on the subcategory of plays, offering a lot of good information for comparison with Louise's fundraising goal.
 
 
@@ -39,7 +39,7 @@ Two Conclusions Based on Launch Date:
 - The most Kickstarters for plays were launched between May and August, depicted by a large spike in the number of successful campaigns while the number of failed campaigns showed a slight increase, but often remained consistent.
 ---
 **Fig6:**
-![Outcomes Based on Launch Date.png](https://github.com/RyanJL18/Kickstarter-Analysis/blob/main/Outcomes%20Based%20on%20Launch%20Date.png)
+![Outcomes Based on Launch Date.png](https://github.com/RyanJL18/Kickstarter-Analysis/blob/main/Resources/Outcomes%20Based%20on%20Launch%20Date.png)
 
 ---
 Conclusion Based on Goal:
@@ -47,7 +47,7 @@ Conclusion Based on Goal:
 
 ---
 **Fig7:**
-![Outcomed Based on Goals](https://github.com/RyanJL18/Kickstarter-Analysis/blob/main/Outcomes%20Based%20on%20Goals.png)
+![Outcomed Based on Goals](https://github.com/RyanJL18/Kickstarter-Analysis/blob/main/Resources/Outcomes%20Based%20on%20Goals.png)
 
 ---
 The limitations that most affect both of these graphs, is that there is a much smaller amount of total projects as the goal amount was growing. While this lets us know it is much less common for this data to exist, we cannot make any firm conclusions on the later values without more data to pull. I would suggest more data for these values and potentially another column or category with information on how the amount pledged was collected (i.e. what fundraising tactics were used to reach their goal), to give us a better idea of what else Louise could attempt to receive the remaining amount for her goal. With the inclusion of a "Fundraising Tactic" column, a bar graph with the tactics as the x-axis and the amount raised as the y-axis could offer further insight on this topic.
